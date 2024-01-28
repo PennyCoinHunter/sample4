@@ -95,19 +95,6 @@ header .navigation a:hover{
     margin-bottom: 40px;
 }
 
-.content .info-btn{
-    color: #fff;
-    background: #226A80;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
-    transition-property: background;
-}
-
 .content .info-btn:hover{
     background: #0C4F60;
 }
@@ -188,7 +175,7 @@ label{
     #check:checked ~ header .navigation{
         z-index: 2;
         position: fixed;
-        background: rgba(114, 223, 255, 0.9);
+        background: #FF6A00;
         top: 0;
         bottom: 0;
         left: 0;
