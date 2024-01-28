@@ -136,9 +136,50 @@ label{
     display: none;
 }
 
+.tokenomics {
+    max-width: 100%;
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.token-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+    max-width: calc(50% - 20px);
+    margin: 0 10px 20px;
+    background: #ffbf8b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tokenomics h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.box h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.box p {
+    font-size: 14px;
+}
+
 /* Responsive styles */
 
 @media (max-width: 960px){
+    .box {
+        max-width: calc(100% - 20px);
+    }
+
     header{
         padding: 30px 30px;
     }
@@ -228,6 +269,10 @@ label{
 }
 
 @media (max-width: 560px) {
+    .box {
+        max-width: calc(60% - 20px);
+    }
+
     header{
         padding: 30px 30px;
     }
