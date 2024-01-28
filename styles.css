@@ -152,6 +152,14 @@ label{
 /* Responsive styles */
 
 @media (max-width: 960px){
+    header{
+        padding: 30px 30px;
+    }
+
+    .content {
+        margin: 30px 30px; /* Adjusted margin for smaller screens */
+    }
+
     header .navigation{
         display: none;
     }
@@ -233,6 +241,14 @@ label{
 }
 
 @media (max-width: 560px) {
+    header{
+        padding: 30px 30px;
+    }
+
+    .content {
+        margin: 30px 30px; /* Adjusted margin for smaller screens */
+    }
+
     .content .info h2{
         font-size: 35px;
         line-height: 50px;
