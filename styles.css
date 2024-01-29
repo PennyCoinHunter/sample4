@@ -189,7 +189,7 @@ label{
     #check:checked ~ header .navigation{
         z-index: 2;
         position: fixed;
-        background: #FF6A00;
+        background: #ffffff;
         top: 0;
         bottom: 0;
         left: 0;
