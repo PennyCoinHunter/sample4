@@ -60,7 +60,7 @@ header .navigation a:not(:last-child){
 }
 
 header .navigation a:hover{
-    background: #fff;
+    background: #5c5656;
 }
 
 .content{
@@ -84,12 +84,13 @@ header .navigation a:hover{
 }
 
 .content .info h2 span{
-    color: #fff;
+    color: #000000;
     font-size: 50px;
     font-weight: 600;
 }
 
 .content .info p{
+    color: #000000;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -133,18 +134,17 @@ label{
 }
 
 .tokenomics h2 {
+    color: #000000;
     font-size: 24px;
     margin-bottom: 15px;
 }
 
 .box h3 {
+    color: #000000;
     font-size: 18px;
     margin-bottom: 8px;
 }
 
-.box p {
-    font-size: 14px;
-}
 
 /* Responsive styles */
 
